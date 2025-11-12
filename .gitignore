@@ -1,1 +1,26 @@
+# Large model files (exceeding GitHub's 100MB limit)
+*.h5
+*.keras
 wheat_unet_model.h5
+wheatDiseaseModel.h5
+wheatDiseaseModel.keras
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
