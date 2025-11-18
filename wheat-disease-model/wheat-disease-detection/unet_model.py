@@ -7,40 +7,25 @@ from tensorflow.keras.models import Model, load_model
 from sklearn.model_selection import train_test_split
 
 # Paths
-IMAGE_DIR = r'D:\Wheat-diesease\wheat-disease-model\wheat-disease-detection\segmentation model\wheat_images'
-MASK_DIR = r'D:\Wheat-diesease\wheat-disease-model\wheat-disease-detection\segmentation model\Manual Mask'
+BASE_DIR = os.path.dirname(__file__);
+IMAGE_DIR = os.path.join(BASE_DIR,'segmentation model','mask_folder','generated_images')
+MASK_DIR = os.path.join(BASE_DIR,'segmentation model','mask_folder','generated_masks')
 
 IMG_HEIGHT, IMG_WIDTH = 256, 256
 
 # Model file and training config
-MODEL_PATH = "D:\Wheat-diesease\wheat_unet_model.h5"
+PARENT_DIR = os.path.dirname(BASE_DIR)
+MODEL_PATH = os.path.join(PARENT_DIR,'wheat_unet_model.h5')
+
 EPOCHS = 20
-
-
-# Step 1: fix wrong extensions
-# for root, _, files in os.walk(MASK_DIR):
-#     for file in files:
-#         if file.endswith(".jppg"):
-#             old_path = os.path.join(root, file)
-#             new_path = os.path.join(root, file.replace(".jppg", ".jpg"))
-#             os.rename(old_path, new_path)
-#             print(f"Renamed: {old_path} -> {new_path}")
-
-# # Step 2: check mask readability
-# for root, _, files in os.walk(MASK_DIR):
-#     for file in files:
-#         fpath = os.path.join(root, file)
-#         img = cv2.imread(fpath)
-#         if img is None:
-#             print(f"⚠️ Corrupted or unreadable: {fpath}")
 
 # Load dataset (recursive: supports images in subfolders)
 def load_data(image_dir, mask_dir, img_height, img_width):
     images = []
     masks = []
 
-    # valid image/mask extensions
-    valid_exts = [".png",".jpg"]
+    # valid image/mask extensions (include common JPEG/JFIF variants)
+    valid_exts = [".png", ".jpg", ".jpeg", ".jfif"]
 
     # loop over categories (subfolders)
     for category in os.listdir(image_dir):
@@ -105,7 +90,7 @@ if len(X) == 0:
     print(f" - IMAGE_DIR is correct: {IMAGE_DIR}")
     print(f" - MASK_DIR is correct: {MASK_DIR}")
     print(" - Each image has a matching mask file with the same base filename inside the corresponding subfolder under MASK_DIR.")
-    print(" - Mask files can be .png/.jpg/.jpeg.\n")
+    print(" - Mask files can be .png/.jpg/.jpeg/.jfif.\n")
     print("You can run a quick check listing a few files, e.g:")
     print("  Get-ChildItem -Path 'D:\\Wheat-diesease\\wheat-disease-model\\wheat-disease-detection\\segmentation model\\wheat_images' -Recurse | Select-Object -First 20")
     raise SystemExit(1)

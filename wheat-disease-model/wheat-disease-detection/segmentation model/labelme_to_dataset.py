@@ -59,7 +59,7 @@ def convert_labelme_to_masks(json_folder, output_masks_folder, output_images_fol
                     shapes_found += 1
             
             # Save mask
-            mask_filename = json_file.stem + '_mask.png'
+            mask_filename = json_file.stem + '.png'
             mask_path = Path(output_masks_folder) / mask_filename
             cv2.imwrite(str(mask_path), mask)
             
