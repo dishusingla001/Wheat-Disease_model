@@ -1,0 +1,18 @@
+{
+  "Wheat_crown_rot": {
+    "fertilizer": "Carbendazim 50% WP",
+    "dosage": "1 gram per liter of water, apply to affected area"
+  },
+  "Wheat_healthy": {
+    "fertilizer": "No treatment needed",
+    "dosage": "N/A"
+  },
+  "Wheat_Leaf_Rust": {
+    "fertilizer": "Propiconazole 25% EC",
+    "dosage": "1 ml per liter of water, spray every 10 days"
+  },
+  "Wheat_Loose_Smut": {
+    "fertilizer": "Vitavax (Carboxin) 75% WP",
+    "dosage": "2 grams per kg of seed before sowing"
+  }
+}
