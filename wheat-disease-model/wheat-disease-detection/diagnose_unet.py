@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 BASE_DIR = os.path.dirname(__file__)
 MASK_DIR = os.path.join(BASE_DIR, 'segmentation model', 'mask_folder', 'generated_masks')
 IMAGE_DIR = os.path.join(BASE_DIR, 'segmentation model', 'mask_folder', 'generated_images')
-TEST_DIR = os.path.join(BASE_DIR, 'testCDD')
+TEST_DIR = os.path.join(BASE_DIR, 'NewtestCdd')
 PARENT_DIR = os.path.dirname(BASE_DIR)
 MODEL_PATH = os.path.join(PARENT_DIR, 'wheat_unet_model.h5')
 

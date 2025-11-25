@@ -11,7 +11,7 @@ IMG_WIDTH = 256
 THRESHOLD = 0.15  # Lowered from 0.5 based on model behavior
 
 BASE_DIR = os.path.dirname(__file__)
-input_folder = os.path.join(BASE_DIR, 'testCDD')
+input_folder = os.path.join(BASE_DIR, 'NewtestCdd')
 output_folder = os.path.join(BASE_DIR, 'mask_by_unet')
 overlay_folder = os.path.join(BASE_DIR, 'mask_by_unet', 'overlays')
 
@@ -88,8 +88,7 @@ for filename in sorted(os.listdir(input_folder)):
         # Calculate disease percentage
         disease_pixels = np.sum(mask > 0)
         total_pixels = mask.size
-        disease_percent = (disease_pixels / total_pixels) * 100
-
+        disease_percent = (disease_pixels / total_pixels)*100
         pred_min, pred_max, pred_mean = stats
 
         # Save predicted mask

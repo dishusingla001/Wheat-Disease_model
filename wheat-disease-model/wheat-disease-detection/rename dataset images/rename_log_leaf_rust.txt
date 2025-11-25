@@ -1,0 +1,105 @@
+Renamed 111 images in Wheat_Leaf_Rust folder
+======================================================================
+
+000011 (2).jpg → temp_00001.jpg
+000011.jpg → temp_00002.jpg
+000012 (2).jpg → temp_00003.jpg
+000012.jpg → temp_00004.jpg
+000013 (2).jpg → temp_00005.jpg
+000013.jpg → temp_00006.jpg
+000014 (2).jpg → temp_00007.jpg
+000014.jpg → temp_00008.jpg
+000015 (2).jpg → temp_00009.jpg
+000015.jpg → temp_00010.jpg
+000016 (2).jpg → temp_00011.jpg
+000016.jpg → temp_00012.jpg
+000017 (2).jpg → temp_00013.jpg
+000017.jpg → temp_00014.jpg
+000018 (2).jpg → temp_00015.jpg
+000018.jpg → temp_00016.jpg
+000019 (2).jpg → temp_00017.jpg
+000019.jpg → temp_00018.jpg
+000020 (2).jpg → temp_00019.jpg
+000020.jpg → temp_00020.jpg
+000023.jpg → temp_00021.jpg
+000024 (2).jpg → temp_00022.jpg
+000024.jpg → temp_00023.jpg
+000025 (2).jpg → temp_00024.jpg
+000025.jpg → temp_00025.jpg
+000026 (2).jpg → temp_00026.jpg
+000026.jpg → temp_00027.jpg
+000027 (2).jpg → temp_00028.jpg
+000027.jpg → temp_00029.jpg
+000028.jpg → temp_00030.jpg
+000029 (2).jpg → temp_00031.jpg
+000029.jpg → temp_00032.jpg
+000030 (2).jpg → temp_00033.jpg
+000030.jpg → temp_00034.jpg
+000031 (2).jpg → temp_00035.jpg
+000031.jpg → temp_00036.jpg
+000032 (2).jpg → temp_00037.jpg
+000032.jpg → temp_00038.jpg
+000033 (2).jpg → temp_00039.jpg
+000033.jpg → temp_00040.jpg
+000034.jpg → temp_00041.jpg
+000035 (2).jpg → temp_00042.jpg
+000035.jpg → temp_00043.jpg
+000036 (2).jpg → temp_00044.jpg
+000036.jpg → temp_00045.jpg
+000037 (2).jpg → temp_00046.jpg
+000037.jpg → temp_00047.jpg
+000038.jpg → temp_00048.jpg
+000039.jpg → temp_00049.jpg
+000040.jpg → temp_00050.jpg
+000041.jpg → temp_00051.jpg
+000042.jpg → temp_00052.jpg
+000043.jpg → temp_00053.jpg
+00741.jpg → temp_00054.jpg
+00761.JPG → temp_00055.jpg
+00771.JPG → temp_00056.jpg
+00781.png → temp_00057.png
+00801.jpg → temp_00058.jpg
+00831.JPG → temp_00059.jpg
+00841.jpg → temp_00060.jpg
+00961.JPG → temp_00061.jpg
+01001.JPG → temp_00062.jpg
+01011.JPG → temp_00063.jpg
+01031.jpg → temp_00064.jpg
+01041.jpg → temp_00065.jpg
+01051.jpg → temp_00066.jpg
+01101.jpg → temp_00067.jpg
+01141.JPG → temp_00068.jpg
+01151.JPG → temp_00069.jpg
+01171.jpg → temp_00070.jpg
+01181.JPG → temp_00071.jpg
+01201.JPG → temp_00072.jpg
+01251.JPG → temp_00073.jpg
+01351.jpg → temp_00074.jpg
+01481.JPG → temp_00075.jpg
+01551.JPG → temp_00076.jpg
+05751.JPG → temp_00077.jpg
+05861.png → temp_00078.png
+05971.jpg → temp_00079.jpg
+06081.jpg → temp_00080.jpg
+06191.JPG → temp_00081.jpg
+06391.JPG → temp_00082.jpg
+06601.png → temp_00083.png
+06711.jpg → temp_00084.jpg
+07041.jpg → temp_00085.jpg
+07361.png → temp_00086.png
+07471.jfif → temp_00087.jpg
+07691.JPG → temp_00088.jpg
+08461.jpg → temp_00089.jpg
+08781.JPG → temp_00090.jpg
+08891.JPG → temp_00091.jpg
+09111.jpg → temp_00092.jpg
+09131.jpg → temp_00093.jpg
+09141.jpg → temp_00094.jpg
+09161.JPG → temp_00095.jpg
+09181.jpg → temp_00096.jpg
+09191.jpg → temp_00097.jpg
+09201.JPG → temp_00098.jpg
+09231.JPG → temp_00099.jpg
+09271.JPG → temp_00100.jpg
+
+... and 11 more files

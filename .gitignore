@@ -24,3 +24,6 @@ ENV/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Dataset images (too large for GitHub)
+wheat-disease-model/wheat-disease-detection/cropDiseaseDataset/
